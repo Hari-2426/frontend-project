@@ -47,7 +47,7 @@ onClicking("rj","Rajasthan.html");
 
 // Call the function for all states
 addHoverEffect("ap", "Andhra Pradesh", "Pictures/ap.jpg");
-addHoverEffect("ts", "Telangana", "Pictures/ts.jpg");
+addHoverEffect("ts", "Telangana", "Pictures/TLE.jpg");
 addHoverEffect("ka", "Karnataka", "Pictures/KN.jpg");
 addHoverEffect("tn", "Tamil Nadu", "Pictures/TN.jpg");
 addHoverEffect("kl", "Kerala", "Pictures/KE.jpeg"); 
@@ -56,3 +56,4 @@ addHoverEffect("hp", "Himachal Pradesh", "Pictures/HP.png");
 addHoverEffect("up", "Uttar Pradesh", "Pictures/UP.jpg");
 addHoverEffect("uk", "Uttarakhand", "Pictures/UK.jpg");
 addHoverEffect("rj", "Rajasthan", "Pictures/RJ.png");
+
