@@ -143,7 +143,7 @@ footer p {
 
 #ts
 {
-    background-image: url('Pictures/TS.jpg');
+    background-image: url('Pictures/TLE.jpg');
     background-size: cover;
     background-position: center;
     border: 3px solid black;
@@ -205,5 +205,6 @@ footer p {
     background-position: center;
     border: 3px solid black;
 }
+
 
 
