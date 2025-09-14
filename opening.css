@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- BODY FADE-IN ---------- */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    /* background: url('Background.jpg') no-repeat center center fixed; */
+    /* background-size: cover; */
+    background-color: #00ffcc;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlideIn 1.2s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- HEADER ---------- */
+.heading {
+    background-color: #333;
+    color: #00ffcc;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: cursive, sans-serif;
+    font-size: 50px;
+    overflow: hidden;
+    border-right: 3px solid #00ffcc;
+    white-space: nowrap;
+    animation: typing 4s steps(25,end) forwards,
+               blinking 0.7s step-end 6,
+               stopcursor 0s forwards 4.5s;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 20ch; }
+}
+
+@keyframes blinking {
+    50% { border-color: transparent; }
+}
+
+@keyframes stopcursor {
+    to { border-right: none; }
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 50px 50px 50px;
+}
+
+
+.box {
+    /* background: linear-gradient(135deg, #00ffcc, #333); */
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(40px);
+   
+}
+
+.box h3 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+}
+
+/* Hover Animation */
+.box:hover {
+    transform: scale(1.1) rotate(0deg);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* ---------- HEADINGS ---------- */
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0 30px 0; /* equal top & bottom gap */
+    font-family: 'Arial Black', sans-serif;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0 0 5px #333, 0 0 10px #666;
+    animation: slideIn 1.2s ease;
+}
+
+
+
+/* ---------- FOOTER ---------- */
+footer {
+    height: auto;
+    width: auto; 
+    background-color: #333;
+    transform: translateY(100%);
+    animation: slideUp 1s ease-out forwards;
+    animation-delay: 3.6s;
+}
+
+@keyframes slideUp {
+    to { transform: translateY(0); }
+}
+
+footer p {
+    color: #00ffcc;
+    text-shadow: 0 0 4px rgba(0, 255, 204, 0.6);
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Arial Black', sans-serif;
+    font-style: italic;
+}
+
+#ap
+{
+    background-image: url('Pictures/ap.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+
+#ts
+{
+    background-image: url('Pictures/ts.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+#ka
+{
+    background-image: url('Pictures/KN.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+#tn
+{
+    background-image: url('Pictures/TN.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+#kl
+{
+    background-image: url('Pictures/KE.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+#jk
+{
+    background-image: url('Pictures/JK.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+#hp
+{
+    background-image: url('Pictures/HP.png');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+#up
+{
+    background-image: url('Pictures/UP.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+#uk
+{
+    background-image: url('Pictures/UK.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+
+#rj
+{
+    background-image: url('Pictures/RJ.png');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+
